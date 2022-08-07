@@ -1,0 +1,14 @@
+last_number = int(input("\n Last number is: "))
+
+# Initializing the sum to 0
+sum = 0
+for number in range(1, last_number + 1):
+    i = 1
+    for i in range(2, number):
+        if (int(number % i) == 0):
+            i = number
+            break;
+
+    if i is not number:
+        sum = sum + number
+print("\nThe sum of prime numbers less than ", last_number, " is :", sum)
