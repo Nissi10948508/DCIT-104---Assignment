@@ -1,3 +1,4 @@
+# I validate that I, Semanyoh Nissi Kekeli(10948508) wrote this code myself.
 last_number = int(input("\n Last number is: "))
 
 # Initializing the sum to 0
